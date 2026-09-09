@@ -1,0 +1,36 @@
+// let name = "Kishan"
+// let age = 25
+// let isLoggedIn = false
+// let state;
+
+// /*
+// data types
+// 1. Number
+// 2. bigint
+// 3. String
+// 4. Boolean
+// 5. undefined
+// 6. null
+// 7. Symbol
+// 8. Object
+// */
+// console.log(typeof undefined);
+// console.log(typeof null);
+
+// let name = "Kishan"
+// let age = 26
+// let country = "Nepal"
+// let isStudent = true
+
+// console.log(name)
+// console.log(age)
+// console.log(country)
+// console.log(isStudent)
+
+console.log(typeof "Hello")
+console.log(typeof 42)
+console.log(typeof 3.14)
+console.log(typeof true)
+console.log(typeof null)
+console.log(typeof undefined)
+console.log(typeof "100")
