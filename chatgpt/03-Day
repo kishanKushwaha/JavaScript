@@ -1,0 +1,89 @@
+// Ex-1
+// const age = 18
+// if(age >= 18){
+//   console.log("You are an adult")
+// }
+// else{
+//   console.log("You are a minor")
+// }
+
+// ex-2
+// const number = -5
+// if(number > 0){
+//   console.log("Positive")
+// }
+// else{
+//   console.log("Negative or zero")
+// }
+
+// ex-3
+// const score = 85
+// if(score >=90 && score <=100){
+//   console.log("Grade A")
+// }
+// else if(score >=80 && score <=89){
+//   console.log("Grade B")
+// }
+// else if(score >=70 && score <=79){
+//   console.log("Grade C")
+// }
+// else if(score >=60 && score <=69){
+//   console.log("Grade D")
+// }
+// else{
+//   console.log("Grade F")
+// }
+
+// ex-4
+// const userName = "Kishan";
+// const password = "12345";
+// if(userName === "Kishan" && password === "12345"){
+//   console.log("Login successful")
+// }
+// else {
+//   console.log("Invalid username or password")
+// }
+
+//ex-5
+// const age = 25;
+// const hasLicense = true;
+// if(age >=18 && hasLicense){
+//   console.log("You can drive")
+// }
+// else{
+//   console.log("You cannot drive")
+// }
+
+//Day 3 challenge
+// const age = 25;
+// const isStudent = true;
+// const discount = 2;
+// if(age < 12){
+//   console.log(`Age: ${age} \n Student: ${isStudent}`)
+//   if(isStudent){
+//     console.log(`Ticket Price: ${5 - discount}`)
+//   }
+//   else{
+//     console.log(`Ticket Price: ${5}`)
+//   }
+
+// }
+// else if(age >= 12 && age <= 17){
+//   console.log(`Age: ${age} \n Student: ${isStudent}`)
+//   if(isStudent){
+//     console.log(`Ticket Price: ${10 - discount}`)
+//   }
+//   else{
+//     console.log(`Ticket Price: ${10}`)
+//   }
+// }
+// else{
+//   console.log(`Age: ${age} \n Student: ${isStudent}`)
+//   if(isStudent){
+//     console.log(`Ticket Price: ${12 - discount}`)
+//   }
+//   else{
+//     console.log(`Ticket Price: ${12}`)
+//   }
+// }
+

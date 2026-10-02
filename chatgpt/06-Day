@@ -1,0 +1,49 @@
+//Ex-01
+//const fruits = ["Apple", "Banana", "Orange", "Mango"];
+// console.log(fruits.includes("Mango"));
+// console.log(fruits.includes("Grapes"));
+//ex-02
+// console.log(fruits.indexOf("Apple"))
+// console.log(fruits.indexOf("Orange"))
+// console.log(fruits.indexOf("Mango"))
+//ex-03
+// const numbers = [10,20,30,40,50];
+// const newArray = numbers.slice(1,4);
+// console.log(newArray)
+//ex-04
+// const colors = ["Red", "Green", "Blue", "Yellow"];
+// colors.splice(1,1);
+// console.log(colors);
+//ex-05
+// const colors = ["Red", "Blue", "Yellow"];
+// colors.splice(1,0,"Green");
+// console.log(colors);
+//ex-06
+// const products = ["Laptop", "Phone", "Tablet", "Keyboard"];
+// if(products.includes("Tablet"))
+//   console.log("Tablet is available")
+// else
+//   console.log("Tablet is not available");
+//ex-07
+// const numbers = [5, 12, 8, 20, 3, 15];
+// for(let i=0; i<numbers.length; i++){
+//   if(numbers[i]>10){
+//     console.log(numbers[i]);
+//   }
+// }
+//Day 6 challange
+// const products = ["Laptop", "Phone", "Mouse", "Keyboard", "Monitor"];
+// console.log(products.length);
+// if(products.includes("Mouse")){
+//   console.log("Mouse exists")
+// }
+// else{
+//   console.log("Mouse does not exists")
+// }
+// console.log(products.indexOf("Monitor"));
+// products.splice(1,1);
+// products.splice(4,1,"Headphones");
+// for(let i=0; i<products.length; i++)
+//   console.log(products[i]);
+
+

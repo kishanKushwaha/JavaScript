@@ -1,0 +1,43 @@
+/* Ex-01
+let name = "Kishan"
+let age = 26
+let country = "Nepal"
+let leraningJS = true
+
+console.log(name, age, country, leraningJS)
+*/
+
+/* Ex-02
+let a = 10
+let b = 20
+console.log(a+b)
+*/
+
+/*Ex-03
+const firstName = "John"
+const lastName = "Smith"
+console.log(firstName,lastName)
+*/
+
+/*Ex-04
+let age = 20
+age = 21
+console.log(age)
+*/
+
+/*Ex-05
+console.log(typeof "Hello")
+console.log(typeof 100)
+console.log(typeof true)
+console.log(typeof undefined) 
+console.log(typeof null) 
+*/
+
+/*Challange
+const Name = "Alex"
+const age = 25
+const country = "Germany"
+const leraningJS = true
+
+console.log(`My name is ${Name}. I am ${age} years old. I live in ${country}. I am learning JavaScript: ${leraningJS}`)
+*/

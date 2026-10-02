@@ -1,0 +1,66 @@
+//ex-01
+// function sayHello(){
+//   console.log("Hello, JavaScript");
+// }
+// sayHello();
+//ex-02
+// function greet(name){
+//   console.log(`Hello ${name}!`)
+// }
+// greet("Kishan")
+// greet("Chatgpt")
+//ex-03
+// function multiply(a,b){
+//   console.log(a*b);
+// }
+// multiply(5,4);
+//ex-04
+// function add(a,b){
+//   return a+b;
+// }
+// const result = add(10,20);
+// console.log(result);
+//ex-05
+// function isEven(number){
+//   return (number%2==0);
+// }
+// console.log(isEven(10));
+// console.log(isEven(7));
+//ex-06
+// function findLargest(a,b){
+//   if(a>b)
+//     return a;
+//   else
+//     return b;
+// }
+// console.log(findLargest(10,20));
+// console.log(findLargest(50,30));
+// console.log(findLargest(100,250));
+//ex-07
+// function calculateSum(numbers){
+//   let sum=0;
+//   for(let i=0; i<numbers.length; i++){
+//     sum+=numbers[i];
+//   }
+//   return sum;
+// }
+
+// const numbers = [10,20,30,40,50];
+// console.log(calculateSum(numbers));
+
+//Day-07 Challenge + bouns
+// const prices = [20,50,30,100];
+// function calculateTotal(prices){
+//   let sum=0;
+//   for(let i=0; i<prices.length; i++){
+//     sum+=prices[i];
+//   }
+//   return sum;
+// }
+
+// function calculateDiscount(total, discountPercent){
+//   return total*(100-discountPercent)/100;
+// }
+// const total = calculateTotal(prices);
+// const finalPrice = calculateDiscount(total, 10);
+// console.log(finalPrice);

@@ -1,0 +1,56 @@
+//Ex-01
+// for(let i = 1; i <= 10; i++){
+//   console.log(i)
+// }
+
+//Ex-02
+// for(let i=10; i>=1; i--){
+//   console.log(i)
+// }
+
+//ex-03
+// for(let i=1; i<=20; i++){
+//   if(i%2==0)
+//   {
+//     console.log(i)
+//   }
+// }
+
+//Ex-04
+// for(let i=1; i<=20; i++){
+//   if(i % 2 != 0){
+//     console.log(i)
+//   }
+// }
+
+//Ex-05
+// let sum=0;
+// for(let i=1; i<=10; i++){
+//   sum+=i;
+// }
+// console.log(sum)
+
+//ex-06
+// const number = 5;
+// for(let i=1; i<=10; i++){
+//   console.log(`${number} * ${i} = ${number*i}`)
+// }
+
+//Day 4 challenge
+for(let i=1; i<=30; i++){
+  if(i%3==0 && i%5==0){
+    console.log("FizzBuzz");
+    //continue;
+  }
+  else if(i%3==0){
+    console.log("Fizz");
+    //continue;
+  }
+  else if(i%5==0){
+    console.log("Buzz");
+    //continue;
+  }
+  else{
+    console.log(i);
+  }
+}

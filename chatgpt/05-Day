@@ -1,0 +1,29 @@
+// Ex-01
+// const fruits = ["Apple", "Banana", "Orange", "Mango"]
+//console.log(fruits);
+//ex-02
+//console.log(fruits[0], fruits[1])
+//ex-03
+//console.log(fruits.length)
+//ex-04
+//fruits[1] = "Grapes";
+//ex-05
+//fruits.push("Watermelon")
+//ex-06
+//fruits.pop()
+//ex-07
+// const cities = ["Berlin", "Paris", "London", "Madrid"]
+// for(let i=0; i<cities.length; i++)
+// {
+//   console.log(cities[i])
+// }
+//Day 5 challenge
+// const numbers = [10,20,30,40,50];
+// let sum=0;
+// for(let i=0; i<numbers.length; i++)
+// {
+//   sum+=numbers[i]
+// }
+// console.log(`sum = ${sum}`)
+// console.log(`Average = ${sum/numbers.length}`)
+

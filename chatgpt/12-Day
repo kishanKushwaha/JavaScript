@@ -1,0 +1,44 @@
+//ex-1
+// const numbers = [1,2,3,4,5];
+// const double = numbers.map(function(number){
+//   return number*2;
+// })
+// console.log(double);
+//ex-2
+// const numbers = [5,10,15,20];
+// const added = numbers.map(function(number){
+//   return number+5;
+// })
+// console.log(added);
+//ex-3
+// const products = [
+//   {name: "Laptop", price: 1000},
+//   {name: "Phone", price: 700},
+//   {name: "Mouse", price: 50}
+// ];
+
+// const productName = products.map(function(product){
+//   return product.name;
+// })
+// console.log(productName);
+
+//ex-4
+// const productPrice = products.map(function(product){
+//   return product.price;
+// })
+// console.log(productPrice);
+//Day 12 challenge
+// const products = [
+//   {name: "Laptop", price: 1000},
+//   {name: "Phone", price: 700},
+//   {name: "Mouse", price: 50}
+// ];
+// const result = products.map(function(product){
+//   return `${product.name} costs €${product.price}`;
+// })
+// console.log(result);
+
+
+
+
+

@@ -1,0 +1,47 @@
+//ex-1
+// const numbers = [5,12,8,20,3,15];
+// const result = numbers.filter(function(numbers){
+//   return numbers>10;
+// })
+// console.log(result);
+//ex-2
+// const numbers = [1,2,3,4,5,6,7,8];
+// const result = numbers.filter(function(number){
+//   if(number%2===0){
+//     return number;
+//   }
+// })
+// console.log(result);
+//ex-3
+// const products = [
+//   {name: "Laptop", price: 1000},
+//   {name: "Phone", price: 700},
+//   {name: "Mouse", price: 50},
+//   {name: "Keyboard", price: 100}
+// ];
+// const result = products.filter(function(product){
+//   return product.price>500;
+// })
+// console.log(result);
+//ex-4
+// const result = products.filter(function(product){
+//   return product.price < 500;
+// })
+// console.log(result);
+//Day 13 Challenge
+// const students = [
+//   { name: "Kishan", age: 26, score: 85 },
+//   { name: "Rahul", age: 25, score: 45 },
+//   { name: "Raj", age: 27, score: 72 },
+//   { name: "Amit", age: 24, score: 35 }
+// ];
+// const passedStudents = students.filter(function(student){
+//   return student.score >= 50;
+// })
+
+// const studentName = passedStudents.map(function(student){
+//   return student.name;
+// })
+// console.log(studentName);
+
+

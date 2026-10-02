@@ -1,0 +1,59 @@
+//ex-01
+// const students = [
+//   {
+//     name: "Kishan",
+//     age: 26,
+//     course: "Java"
+//   },
+//   {
+//     name: "Rahul",
+//     age: 25,
+//     course: "HTML"
+//   },
+//   {
+//     name: "Raj",
+//     age: 27,
+//     course: "CSS"
+//   }
+// ];
+// console.log(students[0].name);
+//ex-2
+// for(let i=0; i<students.length; i++){
+//   console.log(students[i].name);
+// }
+//ex-3
+// const products = [
+//   { name: "Laptop", price: 1000},
+//   { name: "Phone", price: 700},
+//   { name: "Tablet", price: 400}
+// ];
+// for(let i=0; i<products.length; i++){
+//   console.log(`${products[i].name}: €${products[i].price}`)
+// }
+//ex-4
+// for(let i=0; i<products.length; i++)
+// {
+//   if(products[i].price>500){
+//     console.log(products[i].name);
+//   }
+// }
+//day 10 challenge
+// const products = [
+//   { name: "Laptop", price: 1000, quantity: 2},
+//   { name: "Phone", price: 700, quantity: 3},
+//   { name: "Mouse", price: 50, quantity: 4}
+// ];
+// function calculatePrice(price, quantity)
+// {
+//   return price*quantity;
+// }
+// function calculateToal(product){
+//   let sum=0;
+//   for(let i=0; i<products.length; i++){
+//     let total=calculatePrice(products[i].price, products[i].quantity);
+//     sum+=total;
+//   }
+//   return sum;
+// }
+
+// console.log(calculateToal(products));
