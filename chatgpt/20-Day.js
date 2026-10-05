@@ -55,7 +55,7 @@
 // console.log(`Product: ${productName}`);
 // console.log(`Brand: ${brand}`);
 // console.log(`Category: ${category}`);
-// console.log(`Stock: ${stock}`);
+// console.log(`Stock: ${stock}`);    
 
 
 
