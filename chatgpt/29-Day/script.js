@@ -51,26 +51,29 @@
 // })
 
 //Day 29 Challenge
+
 const textInput = document.querySelector("#textInput");
 const addButton = document.querySelector("#addButton");
 const taskCount = document.querySelector("#taskCount");
 const taskList = document.querySelector("#taskList");
 
-function addTask(){
+function addTask() {
   const task = textInput.value.trim();
-  if(task===""){
+
+  if (task === "") {
     return;
   }
+
   const li = document.createElement("li");
   li.textContent = task;
-
-  const removeButton = document.createElement("button");
-  removeButton.textContent = "Remove";
-  removeButton.classList.add("remove-button");
 
   const completeButton = document.createElement("button");
   completeButton.textContent = "Complete";
   completeButton.classList.add("complete-button");
+
+  const removeButton = document.createElement("button");
+  removeButton.textContent = "Remove";
+  removeButton.classList.add("remove-button");
 
   li.appendChild(completeButton);
   li.appendChild(removeButton);
@@ -80,43 +83,49 @@ function addTask(){
   countTask();
 }
 
-addButton.addEventListener("click", addTask);
-textInput.addEventListener("keydown", (event)=>{
-  if(event.key === "Enter"){
-    addTask();
-  }
-})
-
-taskList.addEventListener("click", (event)=>{
-  if(event.target.classList.contains("complete-button")){
-    const li = event.target.closest("li");
-    li.classList.toggle("completed")
-    countTask();
-  }
-})
-
-function countTask(){
+function countTask() {
   let count = 0;
   const tasks = taskList.children;
-  for(const task of tasks){
-    if(!task.classList.contains("completed")){
+
+  for (const task of tasks) {
+    if (!task.classList.contains("completed")) {
       count++;
     }
   }
-  taskCount.textContent = count;
-  if(tasks.length>0 && count===0){
-    taskCount.textContent="All tasks completed!"
-  }
-  else{
+
+  if (tasks.length > 0 && count === 0) {
+    taskCount.textContent = "All tasks completed!";
+  } else {
     taskCount.textContent = count;
   }
 }
 
-taskList.addEventListener("click", (event)=>{
-  const isRemoveButton = event.target.classList.contains("remove-button");
-  if(isRemoveButton){
-    event.target.parentElement.remove();
-    countTask();
+addButton.addEventListener("click", addTask);
 
+textInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    addTask();
   }
-})
+});
+
+taskList.addEventListener("click", (event) => {
+  const button = event.target.closest("button");
+
+  if (!button || !taskList.contains(button)) {
+    return;
+  }
+
+  const li = button.closest("li");
+
+  if (!li) {
+    return;
+  }
+
+  if (button.classList.contains("complete-button")) {
+    li.classList.toggle("completed");
+  } else if (button.classList.contains("remove-button")) {
+    li.remove();
+  }
+
+  countTask();
+});
