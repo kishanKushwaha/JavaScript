@@ -1,0 +1,12 @@
+/* ex 1,2,3,4
+.complete-button{
+  margin-left: 15px;
+}
+
+.completed{
+  text-decoration: line-through;
+} */
+
+.completed{
+  text-decoration: line-through;
+}
