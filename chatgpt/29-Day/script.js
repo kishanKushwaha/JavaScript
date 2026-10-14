@@ -58,7 +58,7 @@ const taskList = document.querySelector("#taskList");
 
 function addTask(){
   const task = textInput.value.trim();
-  if(task==""){
+  if(task===""){
     return;
   }
   const li = document.createElement("li");
@@ -104,8 +104,11 @@ function countTask(){
     }
   }
   taskCount.textContent = count;
-  if(count===0){
+  if(tasks.length>0 && count===0){
     taskCount.textContent="All tasks completed!"
+  }
+  else{
+    taskCount.textContent = count;
   }
 }
 
